@@ -53,7 +53,7 @@
                 {{ $list_authors->lastItem() }}
                 entries
                 {{ $list_authors->total() }}
-            <div class="card-tools">
+            <div class="card-tools float-right">
                 {!! $list_authors->links() !!}
             </div>
         </div>
